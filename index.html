@@ -14,14 +14,19 @@
 </head>
 
 <body>
-    <div>
-        <input type="text" name="" id="todo-item" placeholder="Enter todo item">
-        <button onClick="addTodo()">Add Item</button>
-        <button onClick="deleteAll()">Delete All</button>
+    <div class="main_div">
+        <div class="center_div">
+            <div>
+                <input type="text" name="" id="todo-item" placeholder="Enter todo item">
+                <button onClick="addTodo()">Add Item</button>
+                <button onClick="deleteAll()">Delete All</button>
+            </div>
+            <div>
+                <ul id="list"></ul>
+            </div>
+        </div>
     </div>
-    <div>
-        <ul id="list"></ul>
-    </div>
+
     <script src="app.js"></script>
 </body>
 

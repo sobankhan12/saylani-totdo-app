@@ -8,13 +8,13 @@ function addTodo() {
     list.appendChild(li);
     // Create delete button
     var delBtn = document.createElement("button");
-    var delText = document.createTextNode("DELETE")
+    var delText = document.createTextNode("Delete")
     delBtn.setAttribute("class", "btn");
     delBtn.setAttribute("onclick", "deleteItem(this)");
     delBtn.appendChild(delText);
     // Create edit button
     var editBtn = document.createElement("button");
-    var editText = document.createTextNode("Edit Item");
+    var editText = document.createTextNode("Edit item");
     editBtn.appendChild(editText);
     editBtn.setAttribute("onclick", "editItem(this)");
     li.appendChild(editBtn);

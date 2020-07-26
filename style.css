@@ -21,7 +21,7 @@
 }
 
 .center_div {
-    width: 25%;
+    width: 40%;
     height: 80vh;
     background-color: #f4f4f4;
     box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.25);
@@ -51,7 +51,8 @@ input {
     outline: none;
 }
 
-button {
+
+/* button {
     min-width: 40px;
     width: 40px;
     margin-left: 10px;
@@ -62,7 +63,7 @@ button {
     outline: none;
     border-radius: 50%;
     box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
-}
+} */
 
 button:hover {
     background-color: #20bf6b;
@@ -113,7 +114,7 @@ ol li {
 
 @media(max-width:768px) {
     .center_div {
-        width: 55%;
+        width: 90%;
     }
     .todo_style .fa-times {
         margin: 0 15px 015px;
